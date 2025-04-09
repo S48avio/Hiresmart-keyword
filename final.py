@@ -26,7 +26,7 @@ from nltk.stem import WordNetLemmatizer
 app = Flask(__name__)
 
 # Gemini AI setup
-genai.configure(api_key="AIzaSyBYQg_PJ9y3ujnzhyUCRWa0EVUgqT3Q274")
+genai.configure(api_key="AIzaSyBYQg_PJ9UCRWa0EVUgqT3Q274")
 gemini = genai.GenerativeModel("gemini-1.5-flash")
 
 # Sentence-BERT for semantic similarity
@@ -38,7 +38,7 @@ lemmatizer = WordNetLemmatizer()
 
 # MongoDB + GridFS
 client = MongoClient(
-    "mongodb+srv://saviosunny48:2TJsNwpNwqJX2aG3@cluster0.0zmwv1l.mongodb.net/"
+    "mongodb+srv://samwv1l.mongodb.net/"
     "?retryWrites=true&w=majority"
 )
 db = client["HireSmart"]
