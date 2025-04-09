@@ -26,7 +26,7 @@ from nltk.stem import WordNetLemmatizer
 app = Flask(__name__)
 
 # Gemini AI setup
-genai.configure(api_key="AIzaSyBYQg_PJ9UCRWa0EVUgqT3Q274")
+genai.configure(api_key="AIzaSyqT3Q274")
 gemini = genai.GenerativeModel("gemini-1.5-flash")
 
 # Sentence-BERT for semantic similarity
